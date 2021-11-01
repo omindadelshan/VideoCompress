@@ -63,7 +63,7 @@ async def help_message_f(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/slbotzone).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -74,14 +74,14 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/Discovery_Updates')
+                    InlineKeyboardButton('🎉 Developer 🎉', url='https://t.me/omindas')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')
+                    InlineKeyboardButton('✨ Bot Live Stats ✨', url='https://t.me/szcopressbotlogsv2')
                 ],
                 [
-                    InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
-                    InlineKeyboardButton('Source Code', url='https://github.com/AbirHasan2005/VideoCompress') # Must Give us Credits!
+                    InlineKeyboardButton('💠 Channal 💠', url='https://t.me/szteambots'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('🎲 Group 🎲', url='https://t.me/slbotzone) # Must Give us Credits!
                 ]
             ]
         ),
