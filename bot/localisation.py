@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello There 🎉 \n\n I Am Powerfull Video Compress Bot. I Can Compress Your Video Esy Send /help Command For More Detail\n\n Get Support [SL Bot Zone](https://t.me/slbotzone)"
+    START_TEXT = "Hello There 🎉 \n\nI Am Video Compress Bot. I can Compress Large Videos 😉 Hit /help Command More Help."
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -15,7 +15,7 @@ class Localisation:
     
     DOWNLOAD_START = "**📥 Downloading Your Video.... 📥**\n"
     
-    UPLOAD_START = "**📤 Uploading Your Video... 📤 \n"
+    UPLOAD_START = "**📤 Uploading Your Video... 📤** \n"
     
     COMPRESS_START = "📀 Trying to compress ... 📀"
     
