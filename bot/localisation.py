@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello There 🎉 \n\n I Am Powerfull Video Compress Bot. I Can Compress Your Video Esy. \nSend /help Command For More Detail. Get Support [SL Bot Zone](https://t.me/slbotzone)"
+    START_TEXT = "Hello There 🎉 \n\n I Am Powerfull Video Compress Bot. I Can Compress Your Video Esy Send /help Command For More Detail\n\n Get Support [SL Bot Zone](https://t.me/slbotzone)"
    
     ABS_TEXT = " Please don't be selfish."
     
