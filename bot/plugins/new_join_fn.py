@@ -54,7 +54,7 @@ async def help_message_f(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                            InlineKeyboardButton("🔔 Join Updates Channel 🔔", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -74,14 +74,14 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🎉 Developer 🎉', url='https://t.me/omindas')
+                    InlineKeyboardButton('💜 Developer 💜', url='https://t.me/omindas')
                 ],
                 [
-                    InlineKeyboardButton('✨ Bot Live Stats ✨', url='https://t.me/szcopressbotlogsv2')
+                    InlineKeyboardButton('⏳ Bot Status ⏳', url='https://t.me/szcopressbotlogsv2')
                 ],
                 [
-                    InlineKeyboardButton('💠 Channal 💠', url='https://t.me/szteambots'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
-                    InlineKeyboardButton('🎲 Group 🎲', url='https://t.me/slbotzone') # Must Give us Credits!
+                    InlineKeyboardButton('🔔 Updates 🔔', url='https://t.me/szteambots'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('🎃 Support 🎃', url='https://t.me/slbotzone') # Must Give us Credits!
                 ]
             ]
         ),
