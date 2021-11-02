@@ -95,7 +95,8 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🍀 Support 🍀', url='https://t.me/slbotzone'),
+                    InlineKeyboardButton('🍀 Support 🍀', url='https://t.me/slbotzone')
+                ],
                 [
                     InlineKeyboardButton('⏳ Bot Status ⏳', url='https://t.me/szcopressbotlogsv2')
                 ]
