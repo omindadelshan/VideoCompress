@@ -95,10 +95,11 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🎃 support 🎃', url='https://t.me/slbotzone')
+                    InlineKeyboardButton('🍀 Support 🍀', url='https://t.me/slbotzone')
+                    InlineKeyboardButton('🤖 More Bots 🤖', url='https://t.me/szteambots')
                 ],
                 [
-                    InlineKeyboardButton('🎲 Bot Logs 🎲', url='https://t.me/szcopressbotlogsv2')
+                    InlineKeyboardButton('⏳ Bot Status ⏳', url='https://t.me/szcopressbotlogsv2')
                 ]
             ]
         ),
@@ -124,11 +125,11 @@ async def incoming_compress_message_f(bot, update):
         except UserNotParticipant:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**🍀 Please Join My Update Channal And Resend /start Command For Use Me 🍀**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                            InlineKeyboardButton("🔔 Join Updates Channel 🔔", url=f"https://t.me/{UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -138,7 +139,7 @@ async def incoming_compress_message_f(bot, update):
         except Exception:
             await bot.send_message(
                 chat_id=update.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/slbotzone).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
