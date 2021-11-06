@@ -80,8 +80,8 @@ async def help_message_f(client, message):
                     InlineKeyboardButton('⏳ Bot Status ⏳', url='https://t.me/szcopressbotlogsv2')
                 ],
                 [
-                    InlineKeyboardButton('🔔 Updates 🔔', url='https://t.me/szteambots'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
-                    InlineKeyboardButton('🎃 Support 🎃', url='https://t.me/slbotzone') # Must Give us Credits!
+                    InlineKeyboardButton('🔔 Updates 🔔', url='https://t.me/https://t.me/MAC_Projecs'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('🎃 Support 🎃', url='https://t.me/MAC_Chat_G') # Must Give us Credits!
                 ]
             ]
         ),
